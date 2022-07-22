@@ -7,7 +7,7 @@ Feature: Verify Salesforce Login
     And Launch the salesforceports using "https://login.salesforce.com/"
     When login to the portal using username "<username>" and password "<password>" and submit  
    
-    Then Click on cancel or logout
+    Then Click on cancel or logout and test
    And if cancel then cancel or logout from the website
     
      Examples: 
