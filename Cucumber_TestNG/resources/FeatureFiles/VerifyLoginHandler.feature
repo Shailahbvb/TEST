@@ -7,7 +7,8 @@ Feature: Verify Salesforce Login
     And Launch the salesforceports using "https://login.salesforce.com/"
     When login to the portal using username "<username>" and password "<password>" and submit  
    
-    Then Logout from the Salesforces
+    Then Click on Logout 
+   And logout from the website
     
      Examples: 
       | username  | password | 
