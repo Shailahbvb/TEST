@@ -8,7 +8,7 @@ Feature: Verify Salesforce Login
     When login to the portal using username "<username>" and password "<password>" and submit  
    
     Then Click on Logout 
-   And logout from the website
+   And Logout from Salesforce
     
      Examples: 
       | username  | password | 
