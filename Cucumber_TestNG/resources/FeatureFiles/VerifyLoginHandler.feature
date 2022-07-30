@@ -10,7 +10,7 @@ Feature: Verify Salesforce Login
     When login to the portal using username "<username>" and password "<password>" and submit  
 
 
-    Then Click on Logout and verify the logs
+    Then Click on Logout and verify the logs.. verify the assement
 
 
    And Logout from Salesforce Website
