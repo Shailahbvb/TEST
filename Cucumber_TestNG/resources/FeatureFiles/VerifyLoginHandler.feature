@@ -8,11 +8,10 @@ Feature: Verify Salesforce Login
     Given Launch the chrome browser using WebDriver and wedriver manager
     And Launch the salesforceports using "https://login.salesforce.com/"
     When login to the portal using username "<username>" and password "<password>" and submit  
-
-
-    Then Click on Logout and verify the logs 
-
-   And Logout from Salesforce Website
+    
+    Then Click on Logout 
+    And Logout from Salesforce Website 
+    And verify the redirect
 
     
      Examples: 
