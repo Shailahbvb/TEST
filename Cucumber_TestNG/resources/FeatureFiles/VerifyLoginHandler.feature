@@ -11,7 +11,7 @@ Feature: Verify Salesforce Login
 
 
 
-    Then Click on Logout and verify the logs.. verify the assement
+    Then Click on Logout and verify the logs.. last one more chance
 
 
 
