@@ -9,14 +9,11 @@ Feature: Verify Salesforce Login
     And Launch the salesforceports using "https://login.salesforce.com/"
     When login to the portal using username "<username>" and password "<password>" and submit  
 
+    
+    Then Click on Logout 
+    And Logout from Salesforce Website 
+    And verify the redirect
 
-
-
-    Then Click on Logout and verify the logs.. last one more chance
-
-
-
-   And Logout from Salesforce Website
 
     
      Examples: 
